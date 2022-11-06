@@ -3,7 +3,9 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
   variants: {},
   corePlugins: {
     preflight: true,
