@@ -2,9 +2,8 @@ import React, { useState } from 'react';
 import logo from '../../assets/img/logo.svg';
 
 // Import components
-import Navbar from '../../components/Navbar/Navbar';
-import ContactList from '../../components/ContactList/ContactList';
 import Tabs from '../../components/Tabs/Tabs';
+import Profile from '../../components/Profile/Profile';
 
 import './Popup.css';
 
@@ -22,28 +21,16 @@ const Popup = () => {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <button
-          onClick={isAuthenticated ? disconnectWallet : connectWallet}
-          id="wallet-connect"
-        >
-          {isAuthenticated ? 'Disconnect Wallet' : 'Connect Wallet'}
-          <h1
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            GameChat
-          </h1>
-        </button>
-
-        <Tabs />
-      </header>
-
-      <ContactList open={open} setOpen={setOpen} />
-
-      <button onClick={() => setOpen(true)}>Open</button>
+      <header className="App-header"></header>
+      <button
+        onClick={isAuthenticated ? disconnectWallet : connectWallet}
+        id="wallet-connect"
+      >
+        Button For User
+        {isAuthenticated ? 'Disconnect Wallet' : 'Connect Wallet'}
+      </button>
+      <Profile open={open} setOpen={setOpen} />
+      <Tabs open={open} setOpen={setOpen} />
     </div>
   );
 };
