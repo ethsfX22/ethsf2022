@@ -6,6 +6,8 @@ import { EllipsisVerticalIcon } from '@heroicons/react/20/solid'
 import Profile from '../Profile/Profile'
 import Friends from '../Friends/Friends';
 import Games from '../Games/Games';
+import Chat from '../Chat/Chat';
+
 
 const tabs = [
   // { name: 'Profile', href: '#', current: true },
@@ -87,9 +89,9 @@ const Tabs = ({open, setOpen}) => {
                     {
                       currentTab.name == "Games" && <Games />
                     }
-                    {/* {
+                    {
                       currentTab.name == "Chat" && <Chat />
-                    } */}
+                    }
                     
                   </div>
                 </Dialog.Panel>

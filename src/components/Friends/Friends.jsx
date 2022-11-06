@@ -13,8 +13,7 @@ const friends = [
     name: 'Saharsh Agrawal',
     handle: 'saharshagrawal',
     href: '#',
-    imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0-yWRrhM_Twud01WXFEkL3JYEcTxiHpTC8VdUtvbBtfhdCZ0qTGx0yGHV74uya3z5pPI&usqp=CAU',
     status: 'online',
   },
   {
@@ -22,7 +21,7 @@ const friends = [
     handle: 'Vitalik',
     href: '#',
     imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      'https://upload.wikimedia.org/wikipedia/commons/1/1c/Vitalik_Buterin_TechCrunch_London_2015_%28cropped%29.jpg',
     status: 'offline',
   },
   {
@@ -30,23 +29,7 @@ const friends = [
     handle: 'sahilmanocha',
     href: '#',
     imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-    status: 'online',
-  },
-  {
-    name: 'Saharsh Agrawal',
-    handle: 'saharshagrawal',
-    href: '#',
-    imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-    status: 'online',
-  },
-  {
-    name: 'Saharsh Agrawal',
-    handle: 'saharshagrawal',
-    href: '#',
-    imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      'https://s.yimg.com/os/creatr-uploaded-images/2022-04/61254c10-c4e2-11ec-b6eb-8947bb0d6d4e',
     status: 'online',
   },
   // More people...
