@@ -1,10 +1,9 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import logo from '../../assets/img/logo.svg';
 
 // Import components
-import Navbar from '../../components/Navbar/Navbar';
-import ContactList from '../../components/ContactList/ContactList';
 import Tabs from '../../components/Tabs/Tabs';
+import Profile from '../../components/Profile/Profile';
 
 import './Popup.css';
 
@@ -18,24 +17,13 @@ function classNames(...classes) {
 const Popup = () => {
   const [open, setOpen] = useState(true)
 
+
   return (
     <div className="App">
       <header className="App-header">
-        <h1
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          GameChat
-        </h1>
-
-        <Tabs />
       </header>
-
-      <ContactList open={open} setOpen={setOpen}/>
-
-      <button onClick={() => setOpen(true)}>Open</button>
+      <Profile open={open} setOpen={setOpen} />
+      <Tabs open={open} setOpen={setOpen}/>
     </div>
   );
 };
